@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6385D50E25DACDD8000D3AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D50D25DACDD8000D3AB3 /* AppDelegate.swift */; };
+		6385D51025DACDD8000D3AB3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6385D50F25DACDD8000D3AB3 /* art.scnassets */; };
+		6385D51225DACDD8000D3AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D51125DACDD8000D3AB3 /* ViewController.swift */; };
+		6385D51525DACDD8000D3AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6385D51325DACDD8000D3AB3 /* Main.storyboard */; };
+		6385D51725DACDD9000D3AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6385D51625DACDD9000D3AB3 /* Assets.xcassets */; };
+		6385D51A25DACDD9000D3AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6385D51825DACDD9000D3AB3 /* LaunchScreen.storyboard */; };
+		6385D52525DACDD9000D3AB3 /* MadoriRulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D52425DACDD9000D3AB3 /* MadoriRulerTests.swift */; };
+		6385D53025DACDD9000D3AB3 /* MadoriRulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D52F25DACDD9000D3AB3 /* MadoriRulerUITests.swift */; };
+		6385D54125DACE21000D3AB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6385D54025DACE21000D3AB3 /* GoogleService-Info.plist */; };
+		6385D55B25DADA41000D3AB3 /* Databese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D55A25DADA41000D3AB3 /* Databese.swift */; };
+		6385D56325DAE360000D3AB3 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D56225DAE360000D3AB3 /* Coordinate.swift */; };
+		6385D56825DAE89E000D3AB3 /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6385D56725DAE89E000D3AB3 /* Image.storyboard */; };
+		6385D56D25DAEA76000D3AB3 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385D56C25DAEA76000D3AB3 /* ImageViewController.swift */; };
+		B0834CFAD6EE42D5D93F9B97 /* Pods_MadoriRulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7137D0C025492F7DB8AD17 /* Pods_MadoriRulerTests.framework */; };
+		E4482808BFD6825948889543 /* Pods_MadoriRuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A201AA58C46A9403FDA463 /* Pods_MadoriRuler.framework */; };
+		EBB8BB6D7D64132D12D7DBE2 /* Pods_MadoriRuler_MadoriRulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6E113D6BF4FA6A241B6CBC /* Pods_MadoriRuler_MadoriRulerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6385D52125DACDD9000D3AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6385D50225DACDD8000D3AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6385D50925DACDD8000D3AB3;
+			remoteInfo = MadoriRuler;
+		};
+		6385D52C25DACDD9000D3AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6385D50225DACDD8000D3AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6385D50925DACDD8000D3AB3;
+			remoteInfo = MadoriRuler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A201AA58C46A9403FDA463 /* Pods_MadoriRuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoriRuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6E113D6BF4FA6A241B6CBC /* Pods_MadoriRuler_MadoriRulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoriRuler_MadoriRulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6385D50A25DACDD8000D3AB3 /* MadoriRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadoriRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6385D50D25DACDD8000D3AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6385D50F25DACDD8000D3AB3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6385D51125DACDD8000D3AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6385D51425DACDD8000D3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6385D51625DACDD9000D3AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6385D51925DACDD9000D3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6385D51B25DACDD9000D3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6385D52025DACDD9000D3AB3 /* MadoriRulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadoriRulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6385D52425DACDD9000D3AB3 /* MadoriRulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadoriRulerTests.swift; sourceTree = "<group>"; };
+		6385D52625DACDD9000D3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6385D52B25DACDD9000D3AB3 /* MadoriRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadoriRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6385D52F25DACDD9000D3AB3 /* MadoriRulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadoriRulerUITests.swift; sourceTree = "<group>"; };
+		6385D53125DACDD9000D3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6385D54025DACE21000D3AB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6385D55A25DADA41000D3AB3 /* Databese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databese.swift; sourceTree = "<group>"; };
+		6385D56225DAE360000D3AB3 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		6385D56725DAE89E000D3AB3 /* Image.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Image.storyboard; sourceTree = "<group>"; };
+		6385D56C25DAEA76000D3AB3 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		738673B5E72EA09C5A1A88DF /* Pods-MadoriRuler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoriRuler.release.xcconfig"; path = "Target Support Files/Pods-MadoriRuler/Pods-MadoriRuler.release.xcconfig"; sourceTree = "<group>"; };
+		7B376F55AD3A53E02F2A4E37 /* Pods-MadoriRuler-MadoriRulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoriRuler-MadoriRulerUITests.debug.xcconfig"; path = "Target Support Files/Pods-MadoriRuler-MadoriRulerUITests/Pods-MadoriRuler-MadoriRulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA6B530F4F3ADA5E33D9970 /* Pods-MadoriRulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoriRulerTests.debug.xcconfig"; path = "Target Support Files/Pods-MadoriRulerTests/Pods-MadoriRulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0528405BC96BF5F31DC1B72 /* Pods-MadoriRuler-MadoriRulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoriRuler-MadoriRulerUITests.release.xcconfig"; path = "Target Support Files/Pods-MadoriRuler-MadoriRulerUITests/Pods-MadoriRuler-MadoriRulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C609F179A6F835B4A13F90B8 /* Pods-MadoriRulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoriRulerTests.release.xcconfig"; path = "Target Support Files/Pods-MadoriRulerTests/Pods-MadoriRulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D12D4D6B4BD6AF08F4D0C23F /* Pods-MadoriRuler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoriRuler.debug.xcconfig"; path = "Target Support Files/Pods-MadoriRuler/Pods-MadoriRuler.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7137D0C025492F7DB8AD17 /* Pods_MadoriRulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoriRulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6385D50725DACDD8000D3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4482808BFD6825948889543 /* Pods_MadoriRuler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385D51D25DACDD9000D3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0834CFAD6EE42D5D93F9B97 /* Pods_MadoriRulerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385D52825DACDD9000D3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB8BB6D7D64132D12D7DBE2 /* Pods_MadoriRuler_MadoriRulerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6385D50125DACDD8000D3AB3 = {
+			isa = PBXGroup;
+			children = (
+				6385D50C25DACDD8000D3AB3 /* MadoriRuler */,
+				6385D52325DACDD9000D3AB3 /* MadoriRulerTests */,
+				6385D52E25DACDD9000D3AB3 /* MadoriRulerUITests */,
+				6385D50B25DACDD8000D3AB3 /* Products */,
+				B3DF8DC994D8642AA5EE0239 /* Pods */,
+				7C07802574A54A3E91A9C080 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6385D50B25DACDD8000D3AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6385D50A25DACDD8000D3AB3 /* MadoriRuler.app */,
+				6385D52025DACDD9000D3AB3 /* MadoriRulerTests.xctest */,
+				6385D52B25DACDD9000D3AB3 /* MadoriRulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6385D50C25DACDD8000D3AB3 /* MadoriRuler */ = {
+			isa = PBXGroup;
+			children = (
+				6385D50D25DACDD8000D3AB3 /* AppDelegate.swift */,
+				6385D50F25DACDD8000D3AB3 /* art.scnassets */,
+				6385D51125DACDD8000D3AB3 /* ViewController.swift */,
+				6385D55A25DADA41000D3AB3 /* Databese.swift */,
+				6385D56225DAE360000D3AB3 /* Coordinate.swift */,
+				6385D56C25DAEA76000D3AB3 /* ImageViewController.swift */,
+				6385D51325DACDD8000D3AB3 /* Main.storyboard */,
+				6385D56725DAE89E000D3AB3 /* Image.storyboard */,
+				6385D51625DACDD9000D3AB3 /* Assets.xcassets */,
+				6385D51825DACDD9000D3AB3 /* LaunchScreen.storyboard */,
+				6385D51B25DACDD9000D3AB3 /* Info.plist */,
+				6385D54025DACE21000D3AB3 /* GoogleService-Info.plist */,
+			);
+			path = MadoriRuler;
+			sourceTree = "<group>";
+		};
+		6385D52325DACDD9000D3AB3 /* MadoriRulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6385D52425DACDD9000D3AB3 /* MadoriRulerTests.swift */,
+				6385D52625DACDD9000D3AB3 /* Info.plist */,
+			);
+			path = MadoriRulerTests;
+			sourceTree = "<group>";
+		};
+		6385D52E25DACDD9000D3AB3 /* MadoriRulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6385D52F25DACDD9000D3AB3 /* MadoriRulerUITests.swift */,
+				6385D53125DACDD9000D3AB3 /* Info.plist */,
+			);
+			path = MadoriRulerUITests;
+			sourceTree = "<group>";
+		};
+		7C07802574A54A3E91A9C080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A201AA58C46A9403FDA463 /* Pods_MadoriRuler.framework */,
+				3A6E113D6BF4FA6A241B6CBC /* Pods_MadoriRuler_MadoriRulerUITests.framework */,
+				DC7137D0C025492F7DB8AD17 /* Pods_MadoriRulerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DF8DC994D8642AA5EE0239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D12D4D6B4BD6AF08F4D0C23F /* Pods-MadoriRuler.debug.xcconfig */,
+				738673B5E72EA09C5A1A88DF /* Pods-MadoriRuler.release.xcconfig */,
+				7B376F55AD3A53E02F2A4E37 /* Pods-MadoriRuler-MadoriRulerUITests.debug.xcconfig */,
+				B0528405BC96BF5F31DC1B72 /* Pods-MadoriRuler-MadoriRulerUITests.release.xcconfig */,
+				9AA6B530F4F3ADA5E33D9970 /* Pods-MadoriRulerTests.debug.xcconfig */,
+				C609F179A6F835B4A13F90B8 /* Pods-MadoriRulerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6385D50925DACDD8000D3AB3 /* MadoriRuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6385D53425DACDD9000D3AB3 /* Build configuration list for PBXNativeTarget "MadoriRuler" */;
+			buildPhases = (
+				B3A8480C49D952C4ED10A8C0 /* [CP] Check Pods Manifest.lock */,
+				6385D50625DACDD8000D3AB3 /* Sources */,
+				6385D50725DACDD8000D3AB3 /* Frameworks */,
+				6385D50825DACDD8000D3AB3 /* Resources */,
+				FE1BB63932593E2ED54E4EEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadoriRuler;
+			productName = MadoriRuler;
+			productReference = 6385D50A25DACDD8000D3AB3 /* MadoriRuler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6385D51F25DACDD9000D3AB3 /* MadoriRulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6385D53725DACDD9000D3AB3 /* Build configuration list for PBXNativeTarget "MadoriRulerTests" */;
+			buildPhases = (
+				1778AA41BF5EEA3AA8C928E7 /* [CP] Check Pods Manifest.lock */,
+				6385D51C25DACDD9000D3AB3 /* Sources */,
+				6385D51D25DACDD9000D3AB3 /* Frameworks */,
+				6385D51E25DACDD9000D3AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6385D52225DACDD9000D3AB3 /* PBXTargetDependency */,
+			);
+			name = MadoriRulerTests;
+			productName = MadoriRulerTests;
+			productReference = 6385D52025DACDD9000D3AB3 /* MadoriRulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6385D52A25DACDD9000D3AB3 /* MadoriRulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6385D53A25DACDD9000D3AB3 /* Build configuration list for PBXNativeTarget "MadoriRulerUITests" */;
+			buildPhases = (
+				C79EA646109D3EFD35251BE4 /* [CP] Check Pods Manifest.lock */,
+				6385D52725DACDD9000D3AB3 /* Sources */,
+				6385D52825DACDD9000D3AB3 /* Frameworks */,
+				6385D52925DACDD9000D3AB3 /* Resources */,
+				3D86D93E616D3A7638A0DA48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6385D52D25DACDD9000D3AB3 /* PBXTargetDependency */,
+			);
+			name = MadoriRulerUITests;
+			productName = MadoriRulerUITests;
+			productReference = 6385D52B25DACDD9000D3AB3 /* MadoriRulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6385D50225DACDD8000D3AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6385D50925DACDD8000D3AB3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6385D51F25DACDD9000D3AB3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6385D50925DACDD8000D3AB3;
+					};
+					6385D52A25DACDD9000D3AB3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6385D50925DACDD8000D3AB3;
+					};
+				};
+			};
+			buildConfigurationList = 6385D50525DACDD8000D3AB3 /* Build configuration list for PBXProject "MadoriRuler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6385D50125DACDD8000D3AB3;
+			productRefGroup = 6385D50B25DACDD8000D3AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6385D50925DACDD8000D3AB3 /* MadoriRuler */,
+				6385D51F25DACDD9000D3AB3 /* MadoriRulerTests */,
+				6385D52A25DACDD9000D3AB3 /* MadoriRulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6385D50825DACDD8000D3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6385D51025DACDD8000D3AB3 /* art.scnassets in Resources */,
+				6385D51A25DACDD9000D3AB3 /* LaunchScreen.storyboard in Resources */,
+				6385D56825DAE89E000D3AB3 /* Image.storyboard in Resources */,
+				6385D54125DACE21000D3AB3 /* GoogleService-Info.plist in Resources */,
+				6385D51725DACDD9000D3AB3 /* Assets.xcassets in Resources */,
+				6385D51525DACDD8000D3AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385D51E25DACDD9000D3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385D52925DACDD9000D3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1778AA41BF5EEA3AA8C928E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadoriRulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D86D93E616D3A7638A0DA48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadoriRuler-MadoriRulerUITests/Pods-MadoriRuler-MadoriRulerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadoriRuler-MadoriRulerUITests/Pods-MadoriRuler-MadoriRulerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadoriRuler-MadoriRulerUITests/Pods-MadoriRuler-MadoriRulerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A8480C49D952C4ED10A8C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadoriRuler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79EA646109D3EFD35251BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadoriRuler-MadoriRulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1BB63932593E2ED54E4EEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadoriRuler/Pods-MadoriRuler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadoriRuler/Pods-MadoriRuler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadoriRuler/Pods-MadoriRuler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6385D50625DACDD8000D3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6385D51225DACDD8000D3AB3 /* ViewController.swift in Sources */,
+				6385D55B25DADA41000D3AB3 /* Databese.swift in Sources */,
+				6385D56D25DAEA76000D3AB3 /* ImageViewController.swift in Sources */,
+				6385D50E25DACDD8000D3AB3 /* AppDelegate.swift in Sources */,
+				6385D56325DAE360000D3AB3 /* Coordinate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385D51C25DACDD9000D3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6385D52525DACDD9000D3AB3 /* MadoriRulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385D52725DACDD9000D3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6385D53025DACDD9000D3AB3 /* MadoriRulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6385D52225DACDD9000D3AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6385D50925DACDD8000D3AB3 /* MadoriRuler */;
+			targetProxy = 6385D52125DACDD9000D3AB3 /* PBXContainerItemProxy */;
+		};
+		6385D52D25DACDD9000D3AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6385D50925DACDD8000D3AB3 /* MadoriRuler */;
+			targetProxy = 6385D52C25DACDD9000D3AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6385D51325DACDD8000D3AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6385D51425DACDD8000D3AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6385D51825DACDD9000D3AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6385D51925DACDD9000D3AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6385D53225DACDD9000D3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6385D53325DACDD9000D3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6385D53525DACDD9000D3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12D4D6B4BD6AF08F4D0C23F /* Pods-MadoriRuler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = MadoriRuler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AyumuTazawa.MadoriRuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6385D53625DACDD9000D3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738673B5E72EA09C5A1A88DF /* Pods-MadoriRuler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = MadoriRuler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AyumuTazawa.MadoriRuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6385D53825DACDD9000D3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA6B530F4F3ADA5E33D9970 /* Pods-MadoriRulerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = MadoriRulerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AyumuTazawa.MadoriRulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadoriRuler.app/MadoriRuler";
+			};
+			name = Debug;
+		};
+		6385D53925DACDD9000D3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C609F179A6F835B4A13F90B8 /* Pods-MadoriRulerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = MadoriRulerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AyumuTazawa.MadoriRulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadoriRuler.app/MadoriRuler";
+			};
+			name = Release;
+		};
+		6385D53B25DACDD9000D3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B376F55AD3A53E02F2A4E37 /* Pods-MadoriRuler-MadoriRulerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = MadoriRulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AyumuTazawa.MadoriRulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MadoriRuler;
+			};
+			name = Debug;
+		};
+		6385D53C25DACDD9000D3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0528405BC96BF5F31DC1B72 /* Pods-MadoriRuler-MadoriRulerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = MadoriRulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AyumuTazawa.MadoriRulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MadoriRuler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6385D50525DACDD8000D3AB3 /* Build configuration list for PBXProject "MadoriRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6385D53225DACDD9000D3AB3 /* Debug */,
+				6385D53325DACDD9000D3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6385D53425DACDD9000D3AB3 /* Build configuration list for PBXNativeTarget "MadoriRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6385D53525DACDD9000D3AB3 /* Debug */,
+				6385D53625DACDD9000D3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6385D53725DACDD9000D3AB3 /* Build configuration list for PBXNativeTarget "MadoriRulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6385D53825DACDD9000D3AB3 /* Debug */,
+				6385D53925DACDD9000D3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6385D53A25DACDD9000D3AB3 /* Build configuration list for PBXNativeTarget "MadoriRulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6385D53B25DACDD9000D3AB3 /* Debug */,
+				6385D53C25DACDD9000D3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6385D50225DACDD8000D3AB3 /* Project object */;
+}
